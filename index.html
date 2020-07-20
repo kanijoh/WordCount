@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible"  content="ie=edge">
+  <title>Word Counter</title>
+  <style>
+    body {
+      
+      -webkit-animation: colorchange 10s infinite;
+      animation: colorchange 10s infinite;
+    }
+    
+    @keyframes colorchange {
+      0% {
+        background: #8ebf42;
+      }
+      25% {
+        background: #6e065d;
+      }
+      50% {
+        background: #1c87c9;
+      }
+      75% {
+        background: #f10a57;
+      }
+      100% {
+        background: #f5e50c;
+      }  
+    }
+    .WordCount{
+  background-color: black;
+  color: white;
+  padding: 20px;
+} 
+    
+  </style>
+</head>
+<body style="background-color:#1c87c9;"></body>   
+<body>
+<center>
+  <h2 class="WordCount">Word Count :<span id="count"> 0</span>&#128512;</h2>
+  <textarea id="input" rows="20" cols="70"></textarea>
+</center>
+  <script src="main.js"></script>
+
+</body>
+</html>
